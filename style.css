@@ -1,0 +1,233 @@
+
+/* cursive no*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
+
+
+body{
+    overflow-x:hidden ;
+}
+
+:root{
+    --text-color:black;
+    --text-color-A:white;
+    --serious-font:'Rufina', serif;
+
+   
+
+}
+
+
+/*HOME CSS*/
+
+.nav-item{
+    background-color: white;
+    font-weight:light;
+    font-size: 20px;
+    color: rgb(124, 111, 111);
+    
+
+}
+
+.nav-item :hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+
+
+
+.home-banner.home-banner-1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    height: 850px;
+    position: relative;
+   
+    
+}
+
+
+.home-banner.home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    height: 850px;
+    opacity: 0.5;
+ 
+
+}
+
+    
+.home-banner.home-banner-1{
+    background-image:url("https://i.pinimg.com/736x/1a/72/67/1a7267d82019da4210d0dce2f703797d.jpg")
+    
+}
+
+.home-banner.home-banner-2{
+    background-image:url("https://cdn.shopify.com/s/files/1/1760/4649/products/banarasi-saree-hot-pink-banarasi-saree-silk-saree-online-30742805348545.jpg?v=1648534364&width=300")
+}  
+ 
+
+.home .home-banner .home-banner-text h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%, -30%);
+    font-size: 80px;
+    color:var(--text-color-A);
+    font-family: var(--font-serious);
+}
+
+.home .home-banner .home-banner-text h3{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-170%, 140%);
+    font-size: 30px;
+    color:var(--text-color-A);
+    font-family: var(--font-serious);
+    margin-top: 5px;
+}
+
+
+/* Offer*/
+
+.offer{
+    font-family: 'Rufina', serif;
+    
+   
+}
+
+.offer p{
+    font-family: 'Rufina', serif;
+    font-size: 35px;
+    text-align: center;
+   
+    margin-bottom: 5px;
+
+}
+
+.offer .btn{
+    font-family: 'Rufina', serif;
+
+}
+
+.offer-image img{
+    box-shadow: 5px 10px black;
+    transition: 1s;
+    width: 400px
+   
+}
+
+.offer-image img:hover{
+   transform: scale(1.3); /*will decide zoom scale*/
+   z-index: 2;
+
+}
+
+
+
+
+/*team*/
+
+.TEAM{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-left: 280px;
+    margin-top: 50px;
+    
+   
+}
+
+.our-team .tag-2{
+    font-family: 'Rufina', serif;
+    font-size: 35px;
+    text-align: center;
+   
+}
+
+.team-1 img{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow:  10px 10px 20px rgb(83, 73, 73);
+    
+}
+
+.team-1 .text-1{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+/*contact*/
+
+/*
+.item.IMG{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    height: 850px;
+    position: relative;
+    
+
+}
+
+.item.IMG{
+    background-image: url(team/brand-rep.png);
+}
+*/
+
+.background-image{
+    background-image: url("team/brand-rep.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 20px rgb(83, 73, 73);
+}
+
+.button-chat{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    width: 50%;
+    height: 20%;
+    box-shadow:  10px 10px 20px rgb(83, 73, 73);;
+}
+
+.contact h1{
+    text-align: center;
+    font-family:  var(--serious-font);
+}
+.contact-sec h2{
+    margin-left: 100px;
+  
+}
+.contact-sec p{
+    margin-left: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-sec h1{
+    margin-right: 50%;
+    color: black;
+    size: 20%;
+}
